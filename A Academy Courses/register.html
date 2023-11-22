@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- Font Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="Images/logofav.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <!-- Body  -->
+
+  <body>
+    <!-- container division -->
+
+    <div class="container">
+      <!-- header  -->
+
+      <header>
+        <a href="home.html" class="logo">A <span>Academy</span></a>
+      </header>
+
+       <!-- register  -->
+       <section class="signIn">
+        <form action="signin.html">
+          <label for="email">Email</label>
+          <div class="inputBox">
+            <input type="email" placeholder="email" required/>
+          </div>
+          <label for="password">Password</label>
+          
+          <div class="inputBox">
+            <input type="password" placeholder="password" required />
+          </div>
+          
+          <label for="password">Confirm password</label>
+          
+          <div class="inputBox">
+            <input type="password" placeholder="password" required/>
+          </div>
+          <label for="telephone">Phone Number</label>
+          
+          <div class="inputBox">
+            <input type="=tel" placeholder="phone number starting with your country code" required/>
+          </div>
+          <input
+            type="submit"
+            class="btn"
+            value="Register "
+            onclick="myFunction()"
+          />
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="register.html">New around here?&nbsp; <span>Sign up</span></a>
+          <br>
+          <a class="dropdown-item" href="#">Forgot password?</a>
+        </form>
+      </section>
+
+      <!--Footer-->
+      <section class="footer">
+        <div class="box-container">
+        <div class="credit">
+          created by <span>Adawy</span> | all rights reserved
+        </div>
+      </section>
+
+     
+    </div>
+
+    <!-- js Links -->
+    <script src="javascript/script.js"></script>
+    <script>
+      function myFunction() {
+        alert(
+          "The account registered successfully \n Now sign in to get courses"
+        );
+      }
+    </script>
+  </body>
+</html>
